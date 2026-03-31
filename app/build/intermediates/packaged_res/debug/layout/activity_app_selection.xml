@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="32dp">
+
+    <ImageButton
+        android:id="@+id/btnAppSelBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Back"
+        android:layout_marginTop="16dp"
+        android:tint="@color/text_secondary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_selection_title"
+        android:textColor="@color/text_primary"
+        android:textSize="28sp"
+        android:fontFamily="@font/inter"
+        android:layout_marginTop="20dp"
+        android:letterSpacing="0.02" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_selection_subtitle"
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp"
+        android:layout_marginTop="8dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="28dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/appListContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>

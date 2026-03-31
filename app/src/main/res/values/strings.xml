@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Breakloop</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Take back your attention</string>
+    <string name="onboarding_subtitle">Breakloop detects when you open distracting apps and helps you make intentional choices.</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Permissions -->
+    <string name="permission_usage_title">Usage Access</string>
+    <string name="permission_usage_desc">We need this to detect when you open distracting apps like Instagram, YouTube, and TikTok.</string>
+    <string name="permission_overlay_title">Display Over Apps</string>
+    <string name="permission_overlay_desc">We need this to show an interruption screen when you open a distracting app.</string>
+    <string name="permission_enable">Enable Permission</string>
+    <string name="permission_granted">✓ Granted</string>
+    <string name="permission_not_granted">✗ Not Granted</string>
+    <string name="permission_required">This permission is required for the app to work.</string>
+    <string name="permission_next">Next</string>
+    <string name="permission_done">All Set</string>
+
+    <!-- Home -->
+    <string name="home_monitoring_active">Monitoring Active</string>
+    <string name="home_monitoring_inactive">Monitoring Inactive</string>
+    <string name="home_status_desc">Breakloop is watching for distracting apps.</string>
+    <string name="home_status_inactive_desc">Please enable all permissions to start monitoring.</string>
+    <string name="view_stats">View Stats</string>
+    <string name="select_apps">Select Apps</string>
+    <string name="completed_actions">Completed Actions</string>
+    <string name="setup_permissions">Setup Permissions</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">Why are you here?</string>
+    <string name="overlay_subtitle">Be intentional.</string>
+    <string name="overlay_loop_title">You\'re looping. Stop.</string>
+    <string name="overlay_loop_subtitle">This is the third time in 2 minutes.</string>
+    <string name="continue_anyway">Continue anyway</string>
+    <string name="do_something_better">Do something better</string>
+    <string name="exit_app">Exit app</string>
+
+    <!-- Micro Actions -->
+    <string name="pick_an_action">Pick an action</string>
+    <string name="action_input_hint">Write your response…</string>
+    <string name="mark_as_done">Mark as Done</string>
+    <string name="submit">Submit</string>
+    <string name="action_completed">Action completed! Going home.</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Today\'s Stats</string>
+    <string name="stats_interruptions">Interruptions</string>
+    <string name="stats_actions_completed">Actions Completed</string>
+    <string name="stats_app_opens">App Opens</string>
+    <string name="stats_no_data">No data yet. Start using the app!</string>
+
+    <!-- Task History -->
+    <string name="task_history_title">Completed Actions</string>
+    <string name="task_history_empty">No actions completed yet.</string>
+
+    <!-- App Selection -->
+    <string name="app_selection_title">Select Apps to Monitor</string>
+    <string name="app_selection_subtitle">Choose which apps trigger interruptions.</string>
+
+    <!-- Re-interruption -->
+    <string name="reinterruption_title">Re-interrupt After</string>
+    <string name="reinterruption_5">5 min</string>
+    <string name="reinterruption_10">10 min</string>
+    <string name="reinterruption_15">15 min</string>
+    <string name="reinterruption_off">Off</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Breakloop Monitor</string>
+    <string name="notification_channel_desc">Shows when Breakloop is monitoring apps</string>
+    <string name="notification_monitoring">Watching for distracting apps…</string>
+
+    <!-- Target Apps -->
+    <string name="app_instagram">Instagram</string>
+    <string name="app_youtube">YouTube</string>
+    <string name="app_twitter">X (Twitter)</string>
+    <string name="app_reddit">Reddit</string>
+    <string name="app_tiktok">TikTok</string>
+    <string name="app_facebook">Facebook</string>
+    <string name="app_snapchat">Snapchat</string>
+</resources>

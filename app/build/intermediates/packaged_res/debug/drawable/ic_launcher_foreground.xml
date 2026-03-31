@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield/Block icon representing anti-doomscroll -->
+    <path
+        android:fillColor="#C2A27C"
+        android:pathData="M54,24L54,24C54,24 36,30 36,30L36,54C36,66 44,76 54,80C64,76 72,66 72,54L72,30C72,30 54,24 54,24Z" />
+    <path
+        android:fillColor="#0F2E2A"
+        android:pathData="M50,58L46,54L44,56L50,62L64,48L62,46Z" />
+</vector>

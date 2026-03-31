@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <!-- Onboarding View -->
+    <LinearLayout
+        android:id="@+id/onboardingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_title"
+            android:textColor="@color/text_primary"
+            android:textSize="32sp"
+            android:fontFamily="@font/inter"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:letterSpacing="0.03" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_subtitle"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="4dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGetStarted"
+            style="@style/AccentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="@string/get_started" />
+    </LinearLayout>
+
+    <!-- Permission Step View -->
+    <LinearLayout
+        android:id="@+id/permissionView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvStepIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent"
+            android:textSize="13sp"
+            android:fontFamily="@font/inter"
+            android:layout_marginTop="60dp"
+            android:letterSpacing="0.15" />
+
+        <TextView
+            android:id="@+id/tvPermissionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:fontFamily="@font/inter"
+            android:textAlignment="center"
+            android:layout_marginTop="24dp"
+            android:letterSpacing="0.02" />
+
+        <TextView
+            android:id="@+id/tvPermissionDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="4dp" />
+
+        <TextView
+            android:id="@+id/tvPermissionStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/success"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvPermissionError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/error"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            android:text="@string/permission_required" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="48dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEnablePermission"
+                style="@style/AccentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/permission_enable" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNextPermission"
+                style="@style/MutedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/permission_next"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Home View -->
+    <ScrollView
+        android:id="@+id/homeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/text_primary"
+                android:textSize="28sp"
+                android:fontFamily="@font/inter"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:letterSpacing="0.03" />
+
+            <!-- Status Card -->
+            <LinearLayout
+                android:id="@+id/statusCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="24dp"
+                android:layout_marginTop="28dp">
+
+                <View
+                    android:id="@+id/statusDot"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:background="@drawable/status_dot_active" />
+
+                <TextView
+                    android:id="@+id/tvStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_monitoring_active"
+                    android:textColor="@color/text_primary"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/inter"
+                    android:layout_marginTop="12dp" />
+
+                <TextView
+                    android:id="@+id/tvStatusDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_status_desc"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="3dp" />
+            </LinearLayout>
+
+            <!-- Quick Stats Preview -->
+            <LinearLayout
+                android:id="@+id/quickStatsCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/card_background"
+                android:padding="24dp"
+                android:layout_marginTop="12dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvQuickInterruptions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/accent"
+                        android:textSize="32sp"
+                        android:fontFamily="@font/inter" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Interruptions"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvQuickActions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/accent"
+                        android:textSize="32sp"
+                        android:fontFamily="@font/inter" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Actions Done"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Permission Status Card -->
+            <LinearLayout
+                android:id="@+id/permStatusCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="20dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PERMISSIONS"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/inter"
+                    android:letterSpacing="0.1" />
+
+                <LinearLayout
+                    android:id="@+id/permUsageRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="6dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Usage Access"
+                        android:textColor="@color/text_primary"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tvPermUsageStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/permOverlayRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="8dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Display Over Apps"
+                        android:textColor="@color/text_primary"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tvPermOverlayStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Re-interruption Setting -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="20dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reinterruption_title"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/inter"
+                    android:letterSpacing="0.1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="12dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnReint5"
+                        style="@style/TertiaryButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/reinterruption_5" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnReint10"
+                        style="@style/TertiaryButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/reinterruption_10" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnReint15"
+                        style="@style/TertiaryButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/reinterruption_15" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnReintOff"
+                        style="@style/TertiaryButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/reinterruption_off" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Action Buttons -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnViewStats"
+                style="@style/AccentButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/view_stats" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSelectApps"
+                style="@style/MutedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/select_apps" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCompletedActions"
+                style="@style/MutedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/completed_actions" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

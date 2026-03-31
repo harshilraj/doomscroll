@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="32dp">
+
+    <!-- Header -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Close"
+        android:layout_marginTop="16dp"
+        android:tint="@color/text_secondary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_an_action"
+        android:textColor="@color/text_primary"
+        android:textSize="28sp"
+        android:fontFamily="@font/inter"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose one and do it now."
+        android:textColor="@color/text_secondary"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Action Cards Container -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="24dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/actionCardsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <!-- Input area (hidden by default) -->
+    <LinearLayout
+        android:id="@+id/inputContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tvSelectedAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent"
+            android:textSize="18sp"
+            android:fontFamily="@font/inter" />
+
+        <EditText
+            android:id="@+id/etActionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:background="@drawable/input_background"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_secondary"
+            android:hint="@string/action_input_hint"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSubmitInput"
+            style="@style/AccentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/submit" />
+    </LinearLayout>
+
+    <!-- Physical action confirmation (hidden by default) -->
+    <LinearLayout
+        android:id="@+id/physicalContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tvPhysicalAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent"
+            android:textSize="18sp"
+            android:fontFamily="@font/inter"
+            android:textAlignment="center" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMarkDone"
+            style="@style/AccentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/mark_as_done" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\layout_overlay_layout.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\overlay_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\layout_activity_task_history.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\activity_task_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/layout_activity_app_selection.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/layout/activity_app_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\layout_activity_stats.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\activity_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\drawable_action_card_background.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\drawable\\action_card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\drawable_card_background.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/drawable_status_dot_active.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/drawable/status_dot_active.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\layout_activity_app_selection.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\activity_app_selection.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/drawable_status_dot_inactive.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/drawable/status_dot_inactive.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/layout_activity_micro_action.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/layout/activity_micro_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\xml_accessibility_service_config.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\xml\\accessibility_service_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\layout_activity_micro_action.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\activity_micro_action.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/layout_activity_stats.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/layout/activity_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\drawable_status_dot_active.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\drawable\\status_dot_active.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/layout_overlay_layout.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/layout/overlay_layout.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/drawable_action_card_background.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/drawable/action_card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\drawable_status_dot_inactive.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\drawable\\status_dot_inactive.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-merged_res-38:\\drawable_input_background.xml.flat",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\drawable\\input_background.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/drawable_card_background.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/drawable/card_background.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/layout_activity_task_history.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/layout/activity_task_history.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/font_inter.ttf.flat",
+        "source": "com.antidoomscroll.app-main-40:/font/inter.ttf"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-merged_res-38:/drawable_input_background.xml.flat",
+        "source": "com.antidoomscroll.app-main-40:/drawable/input_background.xml"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-mergeDebugResources-37:\\layout\\activity_task_history.xml",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\activity_task_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-mergeDebugResources-37:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-mergeDebugResources-37:\\layout\\activity_app_selection.xml",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\activity_app_selection.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-mergeDebugResources-37:/layout/activity_micro_action.xml",
+        "source": "com.antidoomscroll.app-main-40:/layout/activity_micro_action.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-mergeDebugResources-37:/layout/overlay_layout.xml",
+        "source": "com.antidoomscroll.app-main-40:/layout/overlay_layout.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "com.antidoomscroll.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-mergeDebugResources-37:/layout/activity_task_history.xml",
+        "source": "com.antidoomscroll.app-main-40:/layout/activity_task_history.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-mergeDebugResources-37:/layout/activity_app_selection.xml",
+        "source": "com.antidoomscroll.app-main-40:/layout/activity_app_selection.xml"
+    },
+    {
+        "merged": "com.antidoomscroll.app-mergeDebugResources-37:/layout/activity_stats.xml",
+        "source": "com.antidoomscroll.app-main-40:/layout/activity_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-mergeDebugResources-37:\\layout\\overlay_layout.xml",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\overlay_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-mergeDebugResources-37:\\layout\\activity_stats.xml",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\activity_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-mergeDebugResources-37:\\layout\\activity_micro_action.xml",
+        "source": "C:\\Users\\91910\\.gradle\\daemon\\8.5\\com.antidoomscroll.app-main-40:\\layout\\activity_micro_action.xml"
+    }
+]
