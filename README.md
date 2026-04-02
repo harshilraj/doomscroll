@@ -1,2 +1,2 @@
 # doomscroll
-It detects when you open distracting apps (social media) and interrups you and give reminder to lock IN. If you continue scrolling then it again interrupts after few minutes.
+Breakloop intercepts you the exact moment you open Instagram, YouTube, or any distraction and forces a real choice. Not a reminder. Not a tracker. A hard interruption. You either continue consciously or break the loop with a simple action that pulls you back to reality. No fluff, no streaks, no fake productivity—just brutal awareness at the moment it matters. If you’ve ever opened an app without thinking and lost 30 minutes, this is the system that stops it in real time.
